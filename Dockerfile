@@ -4,4 +4,4 @@ ADD ss.conf ss.conf
 ADD server server
 ADD start.sh start.sh
 RUN chmod +x server
-CMD  ["bash","start.sh"]
+CMD  ["sh","start.sh"]
