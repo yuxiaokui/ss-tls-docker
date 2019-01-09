@@ -1,2 +1,2 @@
-./nohub ssserver -f ss.conf &
-./nohub server &
+nohup ./server &
+nohup ssserver -f ss.conf 
